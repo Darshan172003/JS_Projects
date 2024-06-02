@@ -1,0 +1,28 @@
+{
+    "image":"mcr.microsoft.com/devcontainers/universal:2",
+    
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "esbenp.prettier-vscode",
+                "vscode-icons-team.vscode-icons",
+                "miguelsolorio.fluent-icons",
+                "ritwickdey.LiveServer",
+                "GitHub.copilot",
+                "GitHub.copilot-chat",
+                "formulahendry.code-runner",
+                "dbaeumer.vscode-eslint"
+            ],
+            "settings": {
+                "workbench.productIconTheme":"fluent-icons",
+                "workbench.iconTheme": "vscode-icons",
+                "editor.wordWrap": "on",
+                "code-runner.runInTerminal": true,
+                "code-runner.clearPreviousOutput": true,
+                "code-runner.saveFileBeforeRun": true
+            }
+            
+        }
+        
+     }
+}
