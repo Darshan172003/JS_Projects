@@ -1,0 +1,132 @@
+/* Basic styles */
+html {
+  font-family: 'Arial', sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Wrapper styles */
+#wrapper {
+  box-sizing: border-box;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Heading styles */
+h1 {
+  background-color: #ff5722;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  animation: popIn 0.5s ease-out;
+}
+
+/* Pop-in animation */
+@keyframes popIn {
+  from { transform: scale(0.5); }
+  to { transform: scale(1); }
+}
+
+/* Paragraph styles */
+p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Form and input styles */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #ff5722;
+  font-weight: bold;
+}
+
+#guessFeild {
+  color: #ffffff;
+  background-color: #333333;
+  width: 100%;
+  max-width: 300px;
+  height: 50px;
+  font-size: 20px;
+  border: none;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+#guessFeild:focus {
+  background-color: #444444;
+}
+
+.guessSubmit {
+  background-color: #ff5722;
+  color: #ffffff;
+  width: 100%;
+  max-width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  font-size: 20px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.guessSubmit:hover {
+  background-color: #e64a19;
+  transform: scale(1.05);
+}
+
+.guessSubmit:active {
+  background-color: #d84315;
+}
+
+/* Result paragraph styles */
+.resultParas p {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.guesses {
+  background-color: #333333;
+}
+
+.lastResult {
+  background-color: #444444;
+}
+
+.lowOrHi {
+  color: #ff4444;
+  font-weight: bold;
+}
