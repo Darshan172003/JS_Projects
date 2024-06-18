@@ -1,0 +1,59 @@
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+span{
+    display: block;
+}
+
+h2{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.canvas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.button {
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
+    display: inline block;
+    margin: 2px
+}
+
+.button:hover {
+    transform: scale(1.1); /* Increase the size of the box by 10% */
+    transition: ease-in-out 0.3s; /* Smooth transition */
+}
+
+#ffb703 {
+    background-color: #ffb703;
+}
+
+#e63946 {
+    background-color: #e63946;
+}
+
+#f1faee {
+    background-color: #f1faee;
+}
+
+#a8dadc {
+    background-color: #a8dadc;
+}
+
+#_588157{
+    background-color: #588157;
+}
+
+#_80ed99{
+    background-color: #80ed99;
+}
+
