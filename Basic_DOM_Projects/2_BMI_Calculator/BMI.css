@@ -1,0 +1,44 @@
+body {
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+    margin: 1px;
+    padding: 0;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+button {
+
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+label {
+    display: inline-block;
+    margin-left: 150px;
+}
+
+#height,
+#weight {
+    margin-left: 10px;
+}
